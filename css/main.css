@@ -1,0 +1,223 @@
+.selector-test {
+  background: grey; }
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("../images/mujer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0; }
+
+.center-margin {
+  max-width: 990px;
+  margin: auto; }
+
+.header-bound {
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.static-strip {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+span a {
+  text-decoration: none !important;
+  font-weight: 500;
+  color: white; }
+
+.list-boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .list-boton li:first-child {
+    background-color: transparent;
+    border: 2px solid white; }
+    .list-boton li:first-child a {
+      color: white; }
+  .list-boton li:nth-child(2) {
+    background-color: white; }
+  .list-boton li {
+    list-style: none;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    margin: 5px; }
+    .list-boton li a {
+      text-decoration: none !important; }
+  .list-boton li:hover {
+    background-color: rgba(0, 0, 0, 0.2) !important; }
+
+.produc-name {
+  height: 298px;
+  font-size: 34px;
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 0; }
+
+.inline-block {
+  display: inline-block; }
+
+.text-principal {
+  padding-bottom: 15px;
+  border-bottom: 1px solid white; }
+  .text-principal span {
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.05;
+    letter-spacing: -0.02em; }
+
+.action {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.action-h2 {
+  font-size: 22px;
+  color: white; }
+
+.action-wrapper a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #0078D4;
+  color: white;
+  border-radius: 5px;
+  font-size: 22px; }
+
+.primero {
+  padding-top: 100px;
+  margin-bottom: 100px; }
+  .primero .primero__text {
+    display: block;
+    max-width: 500px;
+    background-color: white;
+    z-index: 1;
+    top: 80px; }
+    .primero .primero__text span {
+      color: #0078d4;
+      font-weight: 500;
+      font-size: 4.375rem;
+      line-height: 1;
+      margin-bottom: 45px; }
+    .primero .primero__text p {
+      margin-top: 55px;
+      margin-right: 55px; }
+
+.primero__photo {
+  background-image: url("../images/student.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 700px;
+  margin-left: -175px;
+  top: 85px;
+  left: 55px; }
+
+.segundo {
+  height: 200vh;
+  background-image: url("../images/woman.jpg");
+  background-size: cover;
+  background-position: left;
+  width: 100%; }
+
+.row {
+  margin-right: auto;
+  margin-left: auto; }
+
+.segundo-primary {
+  width: 100%; }
+
+.segundo__text {
+  padding-top: 140px;
+  margin-right: 440px; }
+  .segundo__text .segundo-tittle {
+    font-size: 5rem;
+    line-height: 0.95;
+    color: white;
+    margin-bottom: 1em; }
+  .segundo__text .parrafo {
+    font-size: 1.1875rem;
+    line-height: 1.4;
+    max-width: 23em;
+    color: white; }
+
+.corner {
+  background: #ffffff;
+  top: 0;
+  right: 0;
+  width: 400px;
+  display: block;
+  position: absolute;
+  height: 50px;
+  z-index: 2; }
+
+.segundo-secon {
+  margin-top: 80px;
+  height: 500px;
+  width: 100%; }
+
+.segundo-lista {
+  list-style: none;
+  margin-bottom: 50px; }
+  .segundo-lista .span-text {
+    display: block;
+    position: relative;
+    width: calc(100% - 116px);
+    max-width: 278px;
+    font-size: 0.9375rem;
+    color: white;
+    font-weight: 500; }
+
+.list-grup {
+  padding-top: 25px;
+  height: inherit;
+  max-width: 500px; }
+  .list-grup li:nth-child(1) .icon {
+    background-image: url("../images/icons-1.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 52px;
+    height: 52px; }
+  .list-grup li:nth-child(2) .icon {
+    background-image: url("../images/icons-2.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 52px;
+    height: 52px; }
+  .list-grup li:nth-child(3) .icon {
+    background-image: url("../images/icons-3.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 52px;
+    height: 52px; }
+  .list-grup li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.list-grup:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 2px;
+  height: inherit;
+  left: 354px;
+  background: white;
+  -webkit-transform: translateX(-1px);
+  -ms-transform: translateX(-1px);
+  transform: translateX(-1px); }
